@@ -201,7 +201,7 @@ class BoxingDataset(Dataset):
         return data_tensor, label_tensor
 
 # Training Function
-def train_lstm(model, train_loader, epochs=3, lr=0.0005):
+def train_lstm(model, train_loader, epochs=20, lr=0.0005):
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=1e-4)
     
