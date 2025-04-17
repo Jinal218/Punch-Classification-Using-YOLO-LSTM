@@ -15,7 +15,7 @@ from collections import Counter
 from sklearn.model_selection import train_test_split
 
 # Paths to dataset root
-dataset_root = "G:/TU Darmstadt/SEM 1/Practical lab AI/project/data/Olympic Boxing Punch Classification Video Dataset" #if you have downloaded dataset, then change this path to path where dataset it and if you use kaggle version, comment this line
+dataset_root = "G:/TU Darmstadt/SEM 1/Practical lab AI/project/data/Olympic Boxing Punch Classification Video Dataset" #if you have downloaded dataset, then change this path to path where dataset it is saved
 
 # YOLO Model
 class YOLODetector:
