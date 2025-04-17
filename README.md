@@ -28,14 +28,6 @@ pip install opencv-python torch torchvision scikit-learn ultralytics
 
 ## Data Preparation
 The dataset can be downloaded from - https://www.kaggle.com/datasets/piotrstefaskiue/olympic-boxing-punch-classification-video-dataset/data
-or can be incorporated in the code by using - 
-```bash
-import kagglehub
-
-# Download latest version
-dataset_root = kagglehub.dataset_download("piotrstefaskiue/olympic-boxing-punch-classification-video-dataset")
-
-```
 
 
 ### Processing the Dataset
