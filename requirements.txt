@@ -4,3 +4,4 @@ torch
 torchvision
 ultralytics
 scikit-learn
+kagglehub
