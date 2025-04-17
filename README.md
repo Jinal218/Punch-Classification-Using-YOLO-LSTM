@@ -35,7 +35,6 @@ import kagglehub
 # Download latest version
 dataset_root = kagglehub.dataset_download("piotrstefaskiue/olympic-boxing-punch-classification-video-dataset")
 
-print("Path to dataset files:", path)
 ```
 
 
