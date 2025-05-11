@@ -62,11 +62,5 @@ The model is saved after training using `torch.save()`:
 model = PunchLSTM()  # Initialize the model architecture first
 model.load_state_dict(torch.load("lstm_model.pth"))  # Load saved weights
 model.eval()  # Set to evaluation mode
-```
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-This is the full `README.md` content you can directly paste into your `README.md` file in your GitHub repository. Let me know if you need any more modifications!
